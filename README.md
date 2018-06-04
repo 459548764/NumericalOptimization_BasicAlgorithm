@@ -13,11 +13,16 @@ my notes of optimization:<br>
 >> Steepest Descent Method <br>
 >> Newton Method<br> 
 >> Quasi-Newton Method<br> 
+>> Damped-Newton Method<br> 
 >> Conjugate Gradient Method<br> 
 >> Matrix Util Method<br> 
 
 > Large-Scale Unconstrained Optimization:
 >> Inexact Newton method <br>
+
+> Calculating Derivatives:
+>> Finite-Difference Derivative Approximations <br>
+>> Automatic Differentiation <br>
 
 ## Algorithm list
 ### Linear Search Methods :
@@ -39,6 +44,9 @@ my notes of optimization:<br>
 >> { DFP Method  } Algorithm: [DFP.py](https://github.com/YEN-GitHub/Optimization_BasicAlgorithm/tree/master/LinearSearchMethods/Quasi-Newton/DFP.py) <br>
 >> { BFGS Method  } Algorithm: [BFGS.py](https://github.com/YEN-GitHub/Optimization_BasicAlgorithm/tree/master/LinearSearchMethods/Quasi-Newton/BFGS.py) <br>
 
+> Damped-Newton:
+>> { Damped Newton Method  } Algorithm: [DampedNewtonMethod.py](https://github.com/YEN-GitHub/Optimization_BasicAlgorithm/tree/master/LinearSearchMethods/DampedNewton/DampedNewtonMethod.py) <br>
+
 > Conjugate Gradient:
 >> { Conjugate Gradient Preliminary  } Algorithm: [CG_Preliminary.py](https://github.com/YEN-GitHub/Optimization_BasicAlgorithm/tree/master/LinearSearchMethods/ConjugateGradient/CG_Preliminary.py) <br>
 >> { Conjugate Gradient  } Algorithm: [CG.py](https://github.com/YEN-GitHub/Optimization_BasicAlgorithm/tree/master/LinearSearchMethods/ConjugateGradient/CG.py) <br>
@@ -53,12 +61,15 @@ my notes of optimization:<br>
 >> { Line Search Newton-CG  } Algorithm: [LineSearchNewton_CG.py](https://github.com/YEN-GitHub/Optimization_BasicAlgorithm/tree/master/LinearSearchMethods/Newton/LineSearchNewton_CG.py) <br>
 >> { Limit memory-BFGS  } Algorithm: [L_BFGS.py](https://github.com/YEN-GitHub/Optimization_BasicAlgorithm/tree/master/LinearSearchMethods/Quasi-Newton/L_BFGS.py) <br>
 
+### Calculating Derivatives:
+> Finite-Difference:
+>> { Numerical Differentiation  } Algorithm: [NumericalDifferentiation.py](https://github.com/YEN-GitHub/Optimization_BasicAlgorithm/tree/master/CalculatingDerivatives/Finite-Difference/NumericalDifferentiation.py) <br>
 
-### Other demo :
+### Cvx demo :
 > using CvxOpt or Cvxpy package demo:
->> { CvxOpt Solve LP } Demo: [CvxOptSolveLPDemo.py](https://github.com/YEN-GitHub/Optimization_BasicAlgorithm/tree/master/otherDemo/CvxOptSolveLPDemo.py) <br>
->> { Cvxpy Solve LP } Demo: [CvxpySolveLPDemo.py](https://github.com/YEN-GitHub/Optimization_BasicAlgorithm/tree/master/otherDemo/CvxpySolveLPDemo.py) <br>
->> { Cvxpy Solve NLP } Demo: [CvxpySolveNLPDemo.py](https://github.com/YEN-GitHub/Optimization_BasicAlgorithm/tree/master/otherDemo/CvxpySolveNLPDemo.py) <br>
+>> { CvxOpt Solve LP } Demo: [CvxOptSolveLPDemo.py](https://github.com/YEN-GitHub/Optimization_BasicAlgorithm/tree/master/CvxDemo/CvxOptSolveLPDemo.py) <br>
+>> { Cvxpy Solve LP } Demo: [CvxpySolveLPDemo.py](https://github.com/YEN-GitHub/Optimization_BasicAlgorithm/tree/master/CvxDemo/CvxpySolveLPDemo.py) <br>
+>> { Cvxpy Solve NLP } Demo: [CvxpySolveNLPDemo.py](https://github.com/YEN-GitHub/Optimization_BasicAlgorithm/tree/master/CvxDemo/CvxpySolveNLPDemo.py) <br>
 
 ## References
 > Jorge Nocedal and Stephen J.Wright : `Numerical optimization`  Second Edition
